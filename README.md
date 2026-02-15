@@ -1,3 +1,5 @@
+![Awesome SEO Tools](heading.png)
+
 # Awesome SEO Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of SEO tools that practitioners actually use. No fluff, no vibe coded apps. Only tools with proven track records, decent reviews, and real user bases.
