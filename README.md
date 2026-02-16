@@ -17,7 +17,8 @@ Contributions welcome! Please read the [contribution guidelines](#contributing) 
 - [Backlink Analysis and Link Building](#backlink-analysis-and-link-building)
 - [Internal Linking](#internal-linking)
 - [Local SEO](#local-seo)
-- [AI Visibility and GEO (Generative Engine Optimisation)](#ai-visibility-and-geo-generative-engine-optimisation)
+- [LLM Visibility Tracking](#llm-visibility-tracking)
+- [AI SEO Tools](#ai-seo-tools)
 - [SERP Analysis and Monitoring](#serp-analysis-and-monitoring)
 - [Schema Markup and Structured Data](#schema-markup-and-structured-data)
 - [Page Speed and Core Web Vitals](#page-speed-and-core-web-vitals)
@@ -141,7 +142,7 @@ Contributions welcome! Please read the [contribution guidelines](#contributing) 
 - [Yext](https://www.yext.com) - Enterprise listings management. Syncs your business info across directories, maps, and voice assistants.
 - [Moz Local](https://moz.com/products/local) - Pushes your business data out to major directories and aggregators for consistent listings.
 
-## AI Visibility and GEO (Generative Engine Optimisation)
+## LLM Visibility Tracking
 
 - [Otterly AI](https://otterly.ai) - Tracks brand visibility across Google AI Overviews, ChatGPT, Perplexity, Gemini, and Copilot. Daily monitoring, brand visibility index, share of voice, and deep GEO audits. 20,000+ marketing professionals use it.
 - [Profound](https://profound.co) - Enterprise GEO platform with $35M backing from Sequoia Capital. Tracks brand presence across 10+ AI platforms with citation analysis and dedicated AI strategists. SOC 2 and HIPAA compliant.
@@ -156,7 +157,35 @@ Contributions welcome! Please read the [contribution guidelines](#contributing) 
 - [Query Fan Out](https://aicoverage.locomotive.agency) - By Locomotive Agency. Analyses how AI search engines reformulate queries and measures your brand's coverage across AI generated responses.
 - [Waikay](https://waikay.io) - Stands for "What AI Knows About You", built by Dixon Jones (co founder of InLinks). Analyses how ChatGPT, Gemini, Claude, and Perplexity perceive your brand. Detects hallucinations and knowledge gaps, then generates GEO plans. Entity based analysis with fact verification across multiple LLMs.
 - [RadarKit](https://radarkit.ai) - Monitors brand visibility across ChatGPT, Gemini, Perplexity, Copilot, and Google AI Overviews using real browser prompting rather than APIs. Has an AI SEO Chrome extension for auditing pages through the eyes of AI crawlers, plus llms.txt generation.
+
+## AI SEO Tools
+
+- [AI Rank](https://airank.dejan.ai/) - AI visibility tracking framework by DEJAN that monitors how brands, products, and entities rank across AI chat sessions. Pairs with AI Flux for volatility tracking.
+- [AI Flux](https://flux.dejan.ai/) - Dashboard tracking daily volatility in AI rankings across brands, services, products, and people. Think Algoroo but for LLM results.
+- [Algoroo](https://algoroo.com/) - Google algorithm tracking tool by DEJAN. Monitors keyword sets and measures SERP flux to flag potential algorithmic changes.
+- [Tree Walker](https://treewalker.ai/) - AI brand perception analysis tool. Shows high and low entropy points in model completion so you can see where LLMs are confident vs uncertain about your brand.
+- [Brand Relevance](https://dejan.ai/brand-relevance/) - Tests how relevant your website is for any query in Google's AI systems including AI Mode, AI Overviews, Gemini App, and Google Assistant.
+- [Citation Mining](https://cm.dejan.ai/) - Mines citations from Google and OpenAI chat assistant responses. Useful for understanding which sources LLMs pull from.
+- [AI Search Snippet Generator](https://dejan.ai/tools/snippets/) - Takes your page content and a query, then generates LLM powered grounding snippets. Good for testing how AI search might summarise your content.
+- [AI Search Snippet Extractor](https://snippets.dejan.ai/) - Shows which parts of your page Google's AI search pipeline actually uses to answer queries. Tells you exactly what gets pulled in for grounding.
+- [Bot Tester](https://bot.dejan.ai/) - Tests how accessible your URLs are to search engines, AI crawlers, and web bots. Quick way to check if AI crawlers can actually reach your content.
+- [Query Deserves Grounding (Google)](https://dejan.ai/tools/qdg/) - Predicts which queries will trigger grounding with Google search results in AI responses.
+- [Query Deserves Grounding (OpenAI)](https://grounding.dejan.ai/) - Same concept for OpenAI models. Determines which queries will trigger search grounding in ChatGPT.
+- [LinkBERT](https://linkbert.com/) - Link prediction model trained on high quality organic link data. Predicts natural link placement in plain text, useful for internal and external link planning.
+- [Penguin](https://penguin.dejan.ai/) - Link optimisation tool that uses AI to distinguish between link types and suggests optimal anchor text placement. Named after the algorithm it helps you avoid tripping.
+- [Chunk Norris](https://chunk.dejan.ai/) - Content chunking tool. Breaks your content into chunks the way AI systems would, so you can see how your pages get segmented for retrieval.
+- [Google Entity Search](https://entities.dejan.ai/) - Check if a person, brand, product, or service is a recognised entity in Google's Knowledge Graph.
+- [Google Brand and Intent Detection](https://dejan.ai/tools/brand-intent/) - Reverse engineered from Chrome. See how Google detects brand terms and classifies search intent.
+- [Brand AI Sentiment](https://reviews.dejan.ai/) - Mines Google AI brand perception through synthetic reviews. See how AI models perceive your brand's reputation.
+- [Content Substance Classifier](https://dejan.ai/tools/substance/) - Estimates the likelihood that content is thin or lacking substance using a deep learning model. Good for auditing content quality at scale.
+- [Auxy](https://auxy.com/) - Discovers new keyword opportunities from your Google Search Console data. Finds the gaps you're missing.
+- [Dejan Authority Score](https://authority.dejan.ai/) - Domain authority metric (0 to 100) calculated from PageRank and Harmonic Centrality using Common Crawl's hyperlink graph.
+- [Query Fanout Generator](https://dejan.ai/tools/fanout/) - Enter a URL and query to generate a diverse set of related queries. Useful for understanding how AI systems expand and reformulate searches. Also available using [Google's internal model](https://queryfanout.ai/).
+- [Semantic Content Compressor](https://compressor.dejan.ai/) - Extracts page content and returns five levels of semantic compression. See how your content distils down to its core meaning, which is essentially what LLMs do.
 - [QueryBurst](https://queryburst.com) - RAG optimisation platform that focuses on the deterministic retrieval layer behind AI answers rather than tracking probabilistic outputs. Crawls your site, chunks and embeds content, then shows exactly which chunk AI would pick as your representative. Citation optimisers for both ChatGPT Search and Google AI Mode.
+- [AI Content Detection](https://dejan.ai/tools/ai-detection/) - Sentence level AI content detection with a total document score. Flags which specific sentences are likely AI generated.
+- [Qforia](https://ipullrank.com/tools/qforia) - Free query fan out simulation tool by Mike King at iPullRank. Enter a query and it shows how AI systems like Google AI Overviews and AI Mode expand that single search into a network of related subtopics. Tells you what format each query needs (guide, table, FAQ, checklist) so you know exactly what content to create. Uses the Gemini API under the hood.
+- [CC Rank Checker](https://webgraph.metehan.ai/) - Free tool by Metehan Yesilyurt that lets you check any domain's PageRank and Harmonic Centrality scores from Common Crawl's WebGraph dataset. Tracks rankings across five time periods (2023 to 2025) with 18.2 million indexed domains. Also has an experimental Host Index with crawl budget stats, fetch data, and page size metrics.
 
 ## SERP Analysis and Monitoring
 
